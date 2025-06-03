@@ -33,7 +33,7 @@ body {
   max-width: 600px;
   width: 90%;
   margin: 20px; /* Add some margin for smaller screens */
-  border: 5px solid var(--carambar-yellow); /* Border inspired by candy wrapping */
+  border: 5px solid var(--carambar-yellow); 
 }
 
 header {
@@ -44,4 +44,11 @@ header {
   max-width: 250px;
   height: auto;
   margin-bottom: 20px;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 2em;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
