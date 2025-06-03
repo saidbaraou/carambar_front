@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --carambar-red: #E3001B; /* Carambar red */
   --carambar-yellow: #FFD700; /* Carambar yellow */
@@ -110,4 +116,34 @@ footer {
   margin-top: 30px;
   font-size: 0.9em;
   color: var(--carambar-dark);
+}
+
+@media (max-width: 480px) {
+  .container {
+      width: 95%;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 10px;
+  }
+
+  .carambar-logo {
+      max-width: 150px;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  .blague-card {
+      padding: 15px;
+  }
+
+  .blague-card p {
+      font-size: 0.9em;
+  }
+
+  button {
+      padding: 10px 20px;
+      font-size: 0.9em;
+  }
 }
