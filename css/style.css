@@ -1,0 +1,9 @@
+:root {
+  --carambar-yellow: #FFD700; /* Carambar yellow */
+  --carambar-orange: #FFA500; /* A bit more orange for accents */
+  --carambar-dark: #333;
+  --text-color: #333;
+  --card-bg: #FFF;
+  --button-bg: #E67A00; /* Orange-red for the button */
+  --button-hover-bg: #CC6D00;
+}
