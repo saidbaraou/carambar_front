@@ -1,4 +1,5 @@
 :root {
+  --carambar-red: #E3001B; /* Carambar red */
   --carambar-yellow: #FFD700; /* Carambar yellow */
   --carambar-orange: #FFA500; /* A bit more orange for accents */
   --carambar-dark: #333;
@@ -6,12 +7,13 @@
   --card-bg: #FFF;
   --button-bg: #E67A00; /* Orange-red for the button */
   --button-hover-bg: #CC6D00;
+  --white: #FFFFFF;
 }
 
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: var(--carambar-yellow);
+  background-color: var(--carambar-red);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +25,7 @@ body {
 }
 
 .container {
-  background-color: var(--carambar-orange); /* Slightly darker background for the main content area */
+  background-color: var(--white); /* Slightly darker background for the main content area */
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
@@ -42,5 +44,4 @@ header {
   max-width: 250px;
   height: auto;
   margin-bottom: 20px;
-  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3)); /* Add a subtle shadow */
 }
