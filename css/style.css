@@ -8,6 +8,7 @@
   --button-hover-bg: #CC6D00;
 }
 
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: var(--carambar-yellow);
@@ -33,3 +34,6 @@ body {
   border: 5px solid var(--carambar-yellow); /* Border inspired by candy wrapping */
 }
 
+header {
+  margin-bottom: 30px;
+}
