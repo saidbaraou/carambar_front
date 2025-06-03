@@ -6,7 +6,7 @@ const API_URL = 'https://carambar-api-gcpu.onrender.com/api/blagues';
 /**
  * Fetches a random blague from the backend API.
  */
-async function fetchRandomBlague() {
+const fetchRandomBlague = async () => {
     try {
         blagueQuestion.textContent = 'Chargement de la blague...';
         blagueReponse.textContent = ''; // Clear previous response
@@ -28,7 +28,7 @@ async function fetchRandomBlague() {
         blagueReponse.textContent = data.reponse;
 
     } catch (error) {
-        console.error('Erreur lors de la récupération de la blague:', error);
+        console.error('Erreur lors de la récupération de la blague:');
         blagueQuestion.textContent = 'Oups ! Impossible de charger une blague.';
         blagueReponse.textContent = 'Vérifiez que le serveur backend est en ligne et que l\'URL est correcte.';
     }
