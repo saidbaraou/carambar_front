@@ -37,3 +37,10 @@ body {
 header {
   margin-bottom: 30px;
 }
+
+.carambar-logo {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.3)); /* Add a subtle shadow */
+}
