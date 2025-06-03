@@ -1,29 +1,24 @@
 const blagueQuestion = document.getElementById('blague-question');
 const blagueReponse = document.getElementById('blague-reponse');
 const newBlagueBtn = document.getElementById('new-blague-btn');
-const API_URL = 'https://carambar-api-gcpu.onrender.com/api/blagues'; 
+const API_URL = 'https://carambar-api-gcpu.onrender.com/api/v1/blagues'; 
 
-/**
- * Fetches a random blague from the backend API.
- */
+
 const fetchRandomBlague = async () => {
     try {
         blagueQuestion.textContent = 'Chargement de la blague...';
         blagueReponse.textContent = ''; // Clear previous response
 
-        // Construct the URL for the random blague endpoint
-        // Assuming your backend route for random blague is /api/blagues/random
         const response = await fetch(`${API_URL}/random`);
 
         if (!response.ok) {
-            // If the response is not OK (e.g., 404, 500)
+            
             const errorData = await response.json();
             throw new Error(errorData.error || `Erreur HTTP: ${response.status}`);
         }
 
         const data = await response.json();
 
-        // Display the blague
         blagueQuestion.textContent = data.question;
         blagueReponse.textContent = data.reponse;
 
@@ -34,13 +29,10 @@ const fetchRandomBlague = async () => {
     }
 }
 
-// 1. Display a random blague as soon as the page opens
+
 document.addEventListener('DOMContentLoaded', fetchRandomBlague);
 
-// 2. Add event listener for the button
 newBlagueBtn.addEventListener('click', fetchRandomBlague);
-
-
 
 
 const yearSpan = document.getElementById('current-year');
