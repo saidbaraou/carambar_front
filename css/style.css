@@ -20,3 +20,16 @@ body {
   line-height: 1.6;
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
+
+.container {
+  background-color: var(--carambar-orange); /* Slightly darker background for the main content area */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+  margin: 20px; /* Add some margin for smaller screens */
+  border: 5px solid var(--carambar-yellow); /* Border inspired by candy wrapping */
+}
+
