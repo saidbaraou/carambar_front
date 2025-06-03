@@ -52,3 +52,31 @@ h1 {
   margin-bottom: 25px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.blague-card {
+  background-color: var(--card-bg);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-height: 100px; /* Ensure card has a minimum height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blague-card p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.blague-card .question {
+  font-weight: bold;
+  color: var(--carambar-dark);
+}
+
+.blague-card .reponse {
+  font-style: italic;
+  color: var(--text-color);
+}
