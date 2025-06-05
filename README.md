@@ -1,6 +1,6 @@
 # Carambar Blagues (Frontend)
 
-![Carambar Logo](https://upload.wikimedia.org/wikipedia/fr/thumb/f/fa/Carambar_logo.svg/langfr-1920px-Carambar_logo.svg.png)
+![Carambar Logo](https://upload.wikimedia.org/wikipedia/de/e/e6/Carambar_Logo.jpg)
 
 A simple, responsive web application for displaying random Carambar blagues, consuming an external API:
 
@@ -21,8 +21,8 @@ A simple, responsive web application for displaying random Carambar blagues, con
 The application is deployed on Render:
 **[https://carambar-front-998b.onrender.com/]**
 
-And on GitHub Pages :
-**[https://saidbaraou.github.io/carambar_front/]
+And on GitHub Pages:
+**[https://saidbaraou.github.io/carambar_front/]**
 
 ## 🛠️ Installation & Setup (Local Development)
 
