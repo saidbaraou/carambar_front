@@ -1,7 +1,7 @@
 const blagueQuestion = document.getElementById('blague-question');
 const blagueReponse = document.getElementById('blague-reponse');
 const newBlagueBtn = document.getElementById('new-blague-btn');
-const API_URL = 'https://carambar-api-gcpu.onrender.com/api/v1/blagues'; 
+const API_URL = 'https://carambar-api-rd87.onrender.com/api/v1/blagues'; 
 
 
 const fetchRandomBlague = async () => {
